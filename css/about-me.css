@@ -1,0 +1,59 @@
+.about-me {
+  text-align: center;
+  padding: 80px;
+  background-image: linear-gradient(-45deg, #fff, #4e0000);
+}
+
+.twitter-tweet {
+  display: flex;
+  justify-self: center;
+}
+
+.projects {
+  padding: 80px 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+table {
+  max-width: 800px;
+  margin-top: 50px;
+}
+
+table td {
+  padding: 15px;
+}
+
+table #project {
+  min-width: 125px;
+}
+
+table #title {
+  min-width: 20px;
+}
+
+@media (max-width: 665px) {
+  table #project {
+    min-width: 0;
+  }
+  table #title {
+    min-width: 0;
+  }
+}
+
+.logo-about {
+  width: 250px;
+  border-radius: 50%;
+  padding: 0 15px;
+  background-color: #fff;
+}
+
+@media screen and (max-width: 1190px) {
+  .about-me {
+    padding: 10px;
+  }
+  .logo-about {
+    padding: 0 10px;
+  }
+}

@@ -1,0 +1,31 @@
+.container {
+  width: 300px;
+  height: 600px;
+  position: relative;
+}
+#circle-1 {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: cadetblue;
+  position: absolute;
+  z-index: 3;
+}
+#circle-2 {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: lightgreen;
+  position: absolute;
+  z-index: 2;
+  top: 100px;
+}
+#circle-3 {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: firebrick;
+  position: absolute;
+  top: 200px;
+  z-index: 1;
+}

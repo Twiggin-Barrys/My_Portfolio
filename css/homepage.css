@@ -1,0 +1,174 @@
+.socials {
+  position: fixed;
+  top: 30%;
+  right: 0;
+  background-color: #4e0000;
+  width: 50px;
+  padding: 5px 5px;
+  border-radius: 15px 0 0 15px;
+}
+
+.socials img {
+  width: 100%;
+}
+
+.main-section .introduction {
+  width: 50vw;
+  border-left: 4px solid #fff;
+  margin-left: 20px;
+  padding: 20px;
+}
+
+@media (max-width: 665px) {
+  .socials {
+    display: none;
+  }
+  .main-section .introduction {
+    border-left: none;
+    margin: 0;
+    padding: 20px 0;
+  }
+  .main-section .introduction h1 {
+    font-size: 40px;
+  }
+}
+
+.main-section {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.headshot {
+  width: 300px;
+  border-radius: 50%;
+  background-color: white;
+  padding: 40px;
+  margin-left: 10vw;
+}
+
+@media screen and (max-width: 1190px) {
+  .main-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: auto;
+  }
+  .introduction {
+    width: 80vw;
+    border-left: none;
+    text-align: center;
+  }
+  .headshot {
+    margin-left: 0;
+    padding: 20px 0;
+  }
+}
+
+.arrow {
+  border: solid #fff;
+  border-width: 0 10px 10px 0;
+  padding: 15px;
+  display: inline-block;
+  transform: rotate(45deg);
+}
+
+.bounce {
+  padding: 50px 0 0 50px;
+  animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    transform: translatey(0);
+  }
+  40% {
+    transform: translatey(-30px);
+  }
+  60% {
+    transform: translatey(-15px);
+  }
+}
+
+.work-section {
+  background-image: linear-gradient(#fff, #4e0000);
+  padding: 80px 60px;
+}
+
+.work-card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.work-card {
+  width: 25%;
+  background-color: #424242;
+  border-radius: 15px;
+  padding: 0px 50px 50px 50px;
+  margin: 20px;
+}
+
+@media screen and (max-width: 1190px) {
+  .work-card {
+    width: 80%;
+  }
+  .bounce {
+    padding: 50px 0 0;
+  }
+}
+
+.html {
+  border-top: 10px solid #4e0000;
+}
+
+.css {
+  border-top: 10px solid #000;
+}
+
+.js {
+  border-top: 10px solid #fff;
+}
+
+.react {
+  border-top: 10px solid #daa520;
+}
+
+.about-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.quote-container {
+  width: 40%;
+  padding: 40px;
+  font-size: 40px;
+  font-style: italic;
+}
+
+.about-container {
+  width: 30%;
+  padding: 60px;
+}
+
+@media screen and (max-width: 1190px) {
+  .about-section {
+    display: flex;
+    flex-direction: column;
+    margin: 0 20px;
+  }
+  .about-container,
+  .quote-container {
+    padding: 100px 0;
+    width: 80%;
+  }
+}
+
+.quote-container p {
+  float: right;
+}

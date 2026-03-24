@@ -1,0 +1,21 @@
+#flex-container {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: flex-end;
+  height: 100vh;
+}
+
+.flex-item {
+  height: 50px;
+  width: 50px;
+  background: rgb(105, 90, 201);
+  text-align: center;
+  font-size: 40px;
+  color: rgb(119, 222, 200);
+  border: 2px solid rgb(73, 62, 145);
+  border-radius: 10px;
+  font-family:
+    "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans",
+    Arial, sans-serif;
+}
